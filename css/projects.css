@@ -1,0 +1,29 @@
+#projects .projects-container {
+	max-width: 80vw;
+	margin: auto;
+}
+
+#projects .projects-container h2 {
+	font-size: 32;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 200;
+	color: #222;
+	margin-top: 50px;
+}
+
+#projects .projects-container .projects-wrapper {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(315px, 1fr));
+	grid-gap: 20px;
+	margin-top: 40px;
+}
+
+#projects .projects-container .projects-wrapper .card {
+	height: 300px;
+}
+
+#projects .projects-container .projects-wrapper .card img {
+	width: 100%;
+}
